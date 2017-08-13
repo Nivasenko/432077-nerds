@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Nikolay Ivassenko](https://up.htmlacademy.ru/htmlcss/18/user/432077).
-* Наставник: `Денис Байдаров`.
+* Наставник: [Денис Байдаров](https://htmlacademy.ru/profile/4er).
 
 ---
 
