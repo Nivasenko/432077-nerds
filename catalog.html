@@ -1,9 +1,9 @@
 ﻿<!doctype html>
 <html lang="ru">
 <head>
-    <meta charset="utf-8">
-	<link href="css/style.css" rel="stylesheet">
-    <title>catalog</title>
+<meta charset="utf-8">
+<link href="css/style.css" rel="stylesheet">
+<title>catalog</title>
 </head>
 <body>
 	<header class="main-header">
@@ -14,33 +14,33 @@
 			<ul class="site-navigation">
 				<li><a href="#">Студия</a></li>
 				<li><a href="#">Клиенты</a></li>
-				<li><a href="#">Магазин</a></li>
+				<li><a href="catalog.html">Магазин</a></li>
 				<li><a href="#">Контакты</a></li>
 			</ul>
-			<ul class="basket">
-				<li class="basket-link">Корзина</li>
-			</ul>
+			<div class="basket">
+				<li class="basket">Корзина</li>
+			</div>
 		</nav>
 		<h1 class="page-title">Магазин готовых шаблонов</h1>
 	</header>
 	<main>   
 		<section class="filters">      	       
-			<form class="filter" method="get">
-				<fieldset class="price">
+			<form class="filters" method="get">
+				<fieldset class="filters">
 					<legend>Стоимость:</legend>
 					<input type="range" min="0" max="15000" step="1">
 					<p>от <span>0</span> до <span>15000</span></p>    
 				</fieldset>
 				<fieldset class="grid">
-					<legend>Сетка:</legend>
+					<legend class="grid">Сетка:</legend>
 					<ul class="grid-buttons">
 						<li>      	           		    
-							<input type="radio" id="adaptive" name="grid-group" value="adaptive" checked>
-							<label for="adaptive">Адаптивная</label>
+							<input type="radio" id="adaptive" class="hidden"name="grid-group" value="adaptive" checked>
+							<label for="adaptive" class="adaptive">Адаптивная</label>
 						</li>
 						<li>    
-							<input type="radio" id="fixed" name="grid-group" value="fixed">
-							<label for="fixed">Фиксированная</label>
+							<input type="radio" class="hidden" id="fixed" name="grid-group" value="fixed">
+							<label for="fixed"> Фиксированная</label>
 						</li>
 						<li>
 							<input type="radio" class="hidden" id="rubber" name="grid-group" value="rubber">
@@ -52,23 +52,23 @@
 					<legend>Особенности:</legend>
 					<ul class="particularity-list">
 						<li class="particularity-item">
-							<input type="checkbox" class="particularity-option" id="particularity-slider" name="particularity-slider" checked>
+							<input id="particularity-slider" class="particularity-option" type="checkbox"   name="particularity-slider" checked>
 							<label for="particularity-slider">Слайдер</label>
 						</li>
 						<li class="particularity-item">
-							<input type="checkbox" class="particularity-option" id="particularity-feauters" name="particularity-feauters">
+							<input id="particularity-feauters" class="particularity-option" type="checkbox"   name="particularity-feauters">
 							<label for="particularity-feauters">Блок преимуществ</label>
 						</li>
 						<li class="particularity-item">
-							<input type="checkbox" class="particularity-option" id="particularity-news" name="particularity-news" checked>
+							<input id="particularity-news" class="particularity-option" type="checkbox"   name="particularity-news" checked>
 							<label for="particularity-news">Новости</label>
 						</li>
 						<li class="particularity-item">
-							<input type="checkbox" class="particularity-option" id="particularity-gallery" name="particularity-gallery">
+							<input id="particularity-gallery" class="particularity-option" type="checkbox"   name="particularity-gallery">
 							<label for="particularity-gallery">Галерея</label>
 						</li>
 						<li class="particularity-item">
-							<input type="checkbox" class="particularity-option" id="particularity-basket" name="particularity-basket">
+							<input id="particularity-basket" class="particularity-option" type="checkbox"   name="particularity-basket">
 							<label for="particularity-basket">Корзина</label>
 						</li>
 					</ul>
@@ -145,29 +145,25 @@
 		</section>
   	   
 		<footer class="main-footer">
-			<section class="contacts">
-				<div class="map">
-					<img src="img/map.jpg" width="1440" height="420" alt="карта">
-				</div>
-				<div class="adress">
-					<h3 class="adress-title">Nёrds Design Studio</h3>
-					<p>191186, Санкт-Петербург,<br>
-					ул. Б.Конюшенная,д.19</p>
-					<p>тел:+7 812 275 75 75</p>
-					<button class="button adress-button">Напишите нам</button>
+		<section class="contacts">
+			<div class="container">
+				<h1>Nerds design studio</h1>
+				<p>191186, Санкт-Петербург,<br>
+					ул. Б. Конюшенная, д. 19/8<br>
+					тел. +7 (812) 275-75-75</p>
+					<a class="button" href="#">Напишите нам</a>
 				</div>
 			</section>
-			<section class="social">
-				<div class="social-buttons">
-					<ul class="social-list">
-						<li class="social-button">vk</li>
-						<li class="social-button">fb</li>
-						<li class="social-button">inst</li>
+			
+					<ul class="social-buttons">
+						<li><a class="social-button" href="#">Вконтакте</a></li>
+						<li><a class="social-button" href="#">Фейсбук</a></li>
+						<li><a class="social-button" href="#">Инстаграм</a></li>
 					</ul>
-				</div>
-				<div class="frienship">
-					<b>Давайте дружить, это выгодно!</b>
-					<p>Скидка 10% для друзей из социальных сетей.</p>
+				
+			<b>Давайте дружить, это выгодно!</b>
+			<p>Скидка 10% для друзей из социальных сетей.</p>
+
 				</div>
 			</section>
 		</footer>
