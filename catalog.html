@@ -8,7 +8,12 @@
 	<header class="main-header">
 		<div class="container"> 
 			<nav class="main-navigation">
+<<<<<<< HEAD
 				<a href="index.html" class="main-header-logo"><img src="http://placehold.it/150x100" alt="Нёрдс"></a>
+=======
+				<a class="main-header-logo">
+					<a href="index.html"> <img src="http://placehold.it/150x100"  alt="Нёрдс"> </a>
+>>>>>>> 19d3bdb2f1b27e97fc86a453c554d97baf33da97
 				<ul class="site-navigation">
 					<li><a href="studio.html">Студия</a></li>
 					<li><a href="client.html">Клиенты</a></li>
@@ -23,10 +28,11 @@
 		<h1 class="page-title">Магазин готовых шаблонов</h1>
 		<section class="filters">
 			<form class="filter" method="get" action="https://echo.htmlacademy.ru">
-				<fieldset>
-					<legend>Сетка:</legend>
-					<ul>
+				<fieldset class="grid">
+					<legend class="grid-main">Сетка:</legend>
+					<ul class ="grid-list">
 						<li class="filter-option">
+<<<<<<< HEAD
 							<input id="input" class="filter-button" type="radio" name="options" value="1">
 							<label for="input">Адаптивная</label>
 						</li>
@@ -36,6 +42,17 @@
 						</li>
 						<li class="filter-option">
 							<input id="input" class="filter-button" type="radio" name="options" value="3">
+=======
+							<input id="input" class="radiobutton" type="radio" name="option" value="1">
+							<label for="input">Адаптивная</label>
+						</li>
+						<li class="filter-option">
+							<input id="input" class="radiobutton" type="radio" name="option" value="2">
+							<label for="input">Фиксированная</label>
+						</li>
+						<li class="filter-option">
+							<input id="input" class="radiobutton" type="radio" name="option" value="3">
+>>>>>>> 19d3bdb2f1b27e97fc86a453c554d97baf33da97
 							<label for="input">Резиновая</label>
 						</li>
 					</ul>
@@ -48,6 +65,7 @@
 							<label for="">Слайдер</label>
 						</li>
 						<li class="filter-option">
+<<<<<<< HEAD
 							<input id="input" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="options2" checked>
 							<label for="input">Блок преимуществ</label>
 						</li>
@@ -62,6 +80,22 @@
 						<li class="filter-option">
 							<input id="input" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="options5" checked>
 							<label for="input">Корзина</label>
+=======
+							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="options2" checked>
+							<label for="">Блок преимуществ</label>
+						</li>
+						<li class="filter-option">
+							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="options3" checked>
+							<label for="">Новости</label>
+						</li>
+						<li class="filter-option">
+							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="options4" checked>
+							<label for="">Галерея</label>
+						</li>
+						<li class="filter-option">
+							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="options5" checked>
+							<label for="">Корзина</label>
+>>>>>>> 19d3bdb2f1b27e97fc86a453c554d97baf33da97
 						</li>
 					</ul>
 				</fieldset>
@@ -69,13 +103,13 @@
 			</form>
 		</section>
 		<section class="catalog">
-			<div class="sortirovka">
-				<caption>Сортировать:</caption>
-				<a class="price">По цене</a>
-				<a class="type" href="#">По типу</a>
-				<a class="name" href="#">По названию</a>
-				<a class="up" href="#">По возрастанию</a>
-				<a class="down" href="#">По убыванию</a>
+			<div class="sort">
+				<p>Сортировать:</p>
+				<a class="sort-price">По цене</a>
+				<a class="sort-type" href="#">По типу</a>
+				<a class="sort-name" href="#">По названию</a>
+				<a class="sort-up" href="#">По возрастанию</a>
+				<a class="sort-down" href="#">По убыванию</a>
 			</div>
 			<ul class="catalog-list">
 				<li class="catalog-item">
@@ -150,7 +184,7 @@
 	<footer class="main-footer">
 		<section class="contacts">
 			<div class="container">
-				<h1>Nerds design studio</h1>
+				<h2>Nerds design studio</h2>
 				<p>191186, Санкт-Петербург,<br>
 					ул. Б. Конюшенная, д. 19/8<br>
 					тел. +7 (812) 275-75-75</p>
@@ -163,7 +197,6 @@
 						<li><a class="social-button" href="#">Фейсбук</a></li>
 						<li><a class="social-button" href="#">Инстаграм</a></li>
 					</ul>
-				
 			<b>Давайте дружить, это выгодно!</b>
 			<p>Скидка 10% для друзей из социальных сетей.</p>
 		</footer>
