@@ -8,7 +8,7 @@
 	<header class="main-header">
 		<div class="container"> 
 			<nav class="main-navigation">
-				<a href="index.html" class="main-header-logo"><img src="http://placehold.it/150x100" alt="Нёрдс"></a>
+			  <a href="index.html" class="main-header-logo"><img src="http://placehold.it/150x100" alt="Нёрдс"></a>
 				<ul class="site-navigation">
 					<li><a href="studio.html">Студия</a></li>
 					<li><a href="client.html">Клиенты</a></li>
@@ -16,16 +16,16 @@
 					<li><a href="contacts.html">Контакты</a></li>
 				</ul>
 			</nav>
-			<a class="cart" href="#">Корзина</a>
+			  <a class="cart" href="#">Корзина</a>
 		</div>
 	</header>
 	<main class="container">
 		<h1 class="page-title">Магазин готовых шаблонов</h1>
 		<section class="filters">
 			<form class="filter" method="get" action="https://echo.htmlacademy.ru">
-				<fieldset>
-					<legend>Сетка:</legend>
-					<ul>
+				<fieldset class="grid">
+					<legend class="grid-main">Сетка:</legend>
+					<ul class="grid-sub">
 						<li class="filter-option">
 							<input id="input1" class="filter-button" type="radio" name="options" value="1">
 							<label for="input1">Адаптивная</label>
@@ -40,9 +40,9 @@
 						</li>
 					</ul>
 				</fieldset>
-				<fieldset>
-					<legend>Особенности:</legend>
-					<ul>
+				<fieldset class="features">
+					<legend class="features-main">Особенности:</legend>
+					<ul class="features-sub">
 						<li class="filter-option">
 							<input id="input4" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="options1" checked>
 							<label for="input4">Слайдер</label>
@@ -77,68 +77,56 @@
 				<a class="filter-up" href="#">По возрастанию</a>
 				<a class="filter-down" href="#">По убыванию</a>
 			</div>
-			<ul class="catalog-list">
-				<li class="catalog-item">
-					<a href="catalog-item.html">
-						<img src="http://placehold.it/150x100" alt="Sedona">
-					</a>
-					<div class="catalog-item-info">
-						<h3>Sedona</h3>
-						<p>Информационный сайт для туристов</p>
-						<a href="catalog-item.html">9 900 руб.</a>
-					</div>
-				</li>
-				<li class="catalog-item">
-					<a href="catalog-item.html">
-						<img src="http://placehold.it/150x100" alt="Pink">
-					</a>
-					<div class="catalog-item-info">
-						<h3>Pink App</h3>
-						<p>Продуктовый лендинг приложения для iOS и Android</p>
-						<a href="catalog-item.html">9 900 руб.</a>
-					</div>
-				</li>
-				<li class="catalog-item">
-					<a href="catalog-item.html">
-						<img src="http://placehold.it/150x100" alt="Barbershop">
-					</a>
-					<div class="catalog-item-info">
-						<h3>Barbershop</h3>
-						<p>Сайт салоны красоты. Для мужчин, да.</p>
-						<a href="catalog-item.html">9 900 руб.</a>
-					</div>
-				</li>
-				<li class="catalog-item">
-					<a href="catalog-item.html">
-						<img src="http://placehold.it/150x100" alt="Mishka">
-					</a>
-					<div class="catalog-item-info">
-						<h3>Mishka</h3>
-						<p>Интернет-магазин вязаных игрушек</p>
-						<a href="catalog-item.html">9 900 руб.</a>
-					</div>
-				</li>
-				<li class="catalog-item">
-					<a href="catalog-item.html">
-						<img src="http://placehold.it/150x100" alt="A plus">
-					</a>
-					<div class="catalog-item-info">
-						<h3>A plus</h3>
-						<p>Лендинг курсов повышения квалификации</p>
-						<a href="catalog-item.html">9 900 руб.</a>
-					</div>
-				</li>
-				<li class="catalog-item">
-					<a href="catalog-item.html">
-						<img src="http://placehold.it/150x100" alt="Kvast">
-					</a>
-					<div class="catalog-item-info">
-						<h3>Кваст</h3>
-						<p>Промо-сайт производителя крафтового кваса</p>
-						<a href="catalog-item.html">9 900 руб.</a>
-					</div>
-				</li>
-			</ul>
+				<ul class="catalog-list">
+					<li class="catalog-item">
+					  <a href="catalog-item.html"><img src="http://placehold.it/150x100" alt="Sedona"></a>
+						<div class="catalog-item-info">
+							<h3>Sedona</h3>
+							<p>Информационный сайт для туристов</p>
+							<a href="catalog-item.html">9 900 руб.</a>
+						</div>
+					</li>
+					<li class="catalog-item">
+					  <a href="catalog-item.html"><img src="http://placehold.it/150x100" alt="Pink"></a>
+						<div class="catalog-item-info">
+							<h3>Pink App</h3>
+							<p>Продуктовый лендинг приложения для iOS и Android</p>
+							<a href="catalog-item.html">9 900 руб.</a>
+						</div>
+					</li>
+					<li class="catalog-item">
+					  <a href="catalog-item.html"><img src="http://placehold.it/150x100" alt="Barbershop"></a>
+						<div class="catalog-item-info">
+							<h3>Barbershop</h3>
+							<p>Сайт салоны красоты. Для мужчин, да.</p>
+							<a href="catalog-item.html">9 900 руб.</a>
+						</div>
+					</li>
+					<li class="catalog-item">
+					  <a href="catalog-item.html"><img src="http://placehold.it/150x100" alt="Mishka"></a>
+						<div class="catalog-item-info">
+							<h3>Mishka</h3>
+							<p>Интернет-магазин вязаных игрушек</p>
+							<a href="catalog-item.html">9 900 руб.</a>
+						</div>
+					</li>
+					<li class="catalog-item">
+					  <a href="catalog-item.html"><img src="http://placehold.it/150x100" alt="A plus"></a>
+						<div class="catalog-item-info">
+							<h3>A plus</h3>
+							<p>Лендинг курсов повышения квалификации</p>
+							<a href="catalog-item.html">9 900 руб.</a>
+						</div>
+					</li>
+					<li class="catalog-item">
+					  <a href="catalog-item.html"><img src="http://placehold.it/150x100" alt="Kvast"></a>
+						<div class="catalog-item-info">
+							<h3>Кваст</h3>
+							<p>Промо-сайт производителя крафтового кваса</p>
+							<a href="catalog-item.html">9 900 руб.</a>
+						</div>
+					</li>
+				</ul>
 			<ul class="pagination-list">
 				<li class="pagination-item pagination-item-current"><a>1</a></li>
 				<li class="pagination-item"><a href="#">2</a></li>
@@ -151,19 +139,17 @@
 		<section class="contacts">
 			<div class="container">
 				<h2>Nerds design studio</h2>
-				<p>191186, Санкт-Петербург,<br>
-					ул. Б. Конюшенная, д. 19/8<br>
-					тел. +7 (812) 275-75-75</p>
-					<a class="button" href="#">Напишите нам</a>
-				</div>
-			</section>
-								<ul class="social-buttons">
-						<li><a class="social-button" href="#">Вконтакте</a></li>
-						<li><a class="social-button" href="#">Фейсбук</a></li>
-						<li><a class="social-button" href="#">Инстаграм</a></li>
-					</ul>
-							<b>Давайте дружить, это выгодно!</b>
-			<p>Скидка 10% для друзей из социальных сетей.</p>
-		</footer>
-	</body>
-	</html>
+				<p>191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8<br>тел. +7 (812) 275-75-75</p>
+				<a class="button" href="#">Напишите нам</a>
+			</div>
+		</section>
+			<ul class="social-buttons">
+				<li><a class="social-button" href="#">Вконтакте</a></li>
+				<li><a class="social-button" href="#">Фейсбук</a></li>
+				<li><a class="social-button" href="#">Инстаграм</a></li>
+			</ul>
+				<b>Давайте дружить, это выгодно!</b>
+				<p>Скидка 10% для друзей из социальных сетей.</p>
+	</footer>
+</body>
+</html>
