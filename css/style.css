@@ -1,18 +1,89 @@
 body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	line-height: 22px;
-	font-weight: normal;
+  font-family: "Roboto", serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283136;
 }
 
-h1 {
-	font-size: 18px;
-	font-weight: bold;
-	color: black;
+.visually-hidden:not(.form__input) {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 
-h2 {
-	font-size: 16px;
-	font-weight: bold;
-	color: black;
+.slider__title {
+  font-size: 55px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
+
+.service__title {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.about__title {
+  font-size: 45px;
+}
+
+.about__bold {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.features__title {
+  font-size: 45px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.header__title {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.filter__title {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+
+.sort__title--bold {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+.catalog__title {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+
+.contacts__title {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+
+
+.footer__bold {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.write-us__title {
+    font-size: 45px;
+}
+
