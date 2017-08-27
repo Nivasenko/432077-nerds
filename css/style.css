@@ -54,7 +54,6 @@ body {
 
 }
 
-
 .sort__title--bold {
   font-size: 18px;
   font-weight: bold;
@@ -68,15 +67,11 @@ body {
 
 }
 
-
 .contacts__title {
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
 }
-
-
-
 
 .footer__bold {
   font-size: 38px;
@@ -86,4 +81,3 @@ body {
 .write-us__title {
     font-size: 45px;
 }
-
