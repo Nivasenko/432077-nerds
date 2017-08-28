@@ -6,13 +6,14 @@
         <title>NЁRDS | Главная</title>
         <meta charset="utf-8">
         <link href="img/favicon.png" type="image/png" rel="shortcut icon">
-        <link href="css/style.css" rel="stylesheet">
-        <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,500&subset=latin,cyrillic-ext,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto:100,300,500&subset=latin,cyrillic-ext,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
+        <link href="css/normalize.css" rel="normalize">
+		<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <header class="main-header"> 
-        <div class="container">
-            <nav class="main-navigation">
+	<header class="header">
+			<h1 class="visually-hidden">Веб-студия Нёрдс</h1>
+			<nav class="nav">
                <a class="main-header-logo">
                 <img src="img/nerds-logo.svg" alt="Нёрдс"></a>
                 <ul class="site-navigation">
@@ -56,6 +57,7 @@
 			</div>
 		</section>
         <section class="advantages">
+		<h2 class="visually-hidden">Наши услуги</h2>
             <ul class="advantages-list">
                 <li class="advantage-item">
                     <img src="http://placehold.it/150x100">
@@ -78,6 +80,7 @@
             </ul>
         </section>
         <section class="studio">
+		<h2 class="visually-hidden">О нас</h2>
             <h1>Мы — маленькая, но гордая дизайн-студия из Краснодара.</h1>
             <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы</p>
             <h3>Выполняем заказы на разработку:</h3>
@@ -103,17 +106,21 @@
                 </tr>
             </table>
         </section>
-        <section class="clients">
-            <ul>
-                <li><img src="http://placepuppy.it/150/100" alt="затычка"></li>
-                <li><img src="http://placepuppy.it/150/100" alt="затычка"></li>
-                <li><img src="http://placepuppy.it/150/100" alt="затычка"></li>
-                <li><img src="http://placepuppy.it/150/100" alt="затычка"></li>
-            </ul>
-        </section>
+        <section class="partners">
+        <h2 class="visually-hidden">Наши партнёры</h2>
+        <div class="partners__item partners__item--image"><a href="#"><img src="img/academy_logo.png" alt="HTML Академия" width="199" height="68"></a>
+        </div>
+        <div class="partners__item partners__item--image"><a href="#"><img src="img/barber_logo.png" alt="Барбершоп Бородинский" width="209" height="90"></a>
+        </div>
+        <div class="partners__item partners__item--image"><a href="#"><img src="img/pink_logo.png" alt="Пинк" width="185" height="52"></a>
+        </div>
+        <div class="partners__item partners__item--image"><a href="#"><img src="img/mishka_logo.png" alt="Мишка" width="173" height="84"></a>
+        </div>
+      </section>
   </main>
 	<footer class="main-footer">
 		<section class="contacts">
+		<h2 class="visually-hidden">Контакты</h2>
 			<div class="container">
 				<h2>Nerds design studio</h2>
 				<p>191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8<br>тел. +7 (812) 275-75-75</p>

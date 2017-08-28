@@ -4,6 +4,13 @@ body {
 	line-height: 22px;
 	font-weight: normal;
 }
+.visually-hidden:not(.form__input) {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
 
 h1 {
 	font-size: 18px;
@@ -79,4 +86,4 @@ h2 {
 .write-us__title {
     font-size: 45px;
 }
->>>>>>> 5edfec9f21a2eee1ddaa3ecf0e2737277da2e8f7
+
