@@ -1,27 +1,32 @@
 ﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
-<meta charset="utf-8">
-<title>Нёрдс</title>
+        <title>NЁRDS | Главная</title>
+        <meta charset="utf-8">
+        <link href="img/favicon.png" type="image/png" rel="shortcut icon">
+		<link href='http://fonts.googleapis.com/css?family=Roboto:100,300,500&subset=latin,cyrillic-ext,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
+        <link href="css/normalize.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-	<header class="main-header">
-		<div class="container"> 
-			<nav class="main-navigation">
-			  <a href="index.html" class="main-header-logo"><img src="img/nerds-logo.svg" alt="Нёрдс"></a>
-				<ul class="site-navigation">
-					<li><a href="studio.html">Студия</a></li>
-					<li><a href="client.html">Клиенты</a></li>
-					<li class="site-navigation-current"><a>Магазин</a></li>
-					<li><a href="contacts.html">Контакты</a></li>
-				</ul>
-			</nav>
-			  <a class="cart" href="#">Корзина</a>
-		</div>
-	</header>
+	<header class="header">
+			<h2 class="visually-hidden">Веб-студия Нёрдс</h2>
+			<nav class="nav">
+               <a class="main-header-logo">
+                <img src="img/nerds-logo.svg" alt="Нёрдс"></a>
+                <ul class="site-navigation">
+                 <li><a href="index.html">Студия</a></li>
+                 <li><a href="clients.html">Клиенты</a></li>
+                 <li class="site-navigation-current">Магазин</li>
+                 <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+                 <a class="cart" href="#">Корзина</a>
+    </header>
 	<main class="container">
 		<h1 class="page-title">Магазин готовых шаблонов</h1>
 		<section class="filters">
+		<h3 class="visually-hidden">Фильтр готовых шаблонов:</h3>
 			<form class="filter" method="get" action="https://echo.htmlacademy.ru">
 				<fieldset class="form-group">
 					<legend class="form-legend">Сетка:</legend>
@@ -44,23 +49,23 @@
 					<legend class="form-legend">Особенности:</legend>
 					<ul class="form-list">
 						<li class="filter-option">
-							<input id="input4" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="options1" checked>
+							<input id="input4" class="filter-input filter-input-checkbox" type="checkbox" name="options1" checked>
 							<label for="input4">Слайдер</label>
 						</li>
 						<li class="filter-option">
-							<input id="input5" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="options2" checked>
+							<input id="input5" class="filter-input filter-input-checkbox" type="checkbox" name="options2" checked>
 							<label for="input5">Блок преимуществ</label>
 						</li>
 						<li class="filter-option">
-							<input id="input6" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="options3" checked>
+							<input id="input6" class="filter-input filter-input-checkbox" type="checkbox" name="options3" checked>
 							<label for="input6">Новости</label>
 						</li>
 						<li class="filter-option">
-							<input id="input7" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="options4" checked>
+							<input id="input7" class="filter-input filter-input-checkbox" type="checkbox" name="options4" checked>
 							<label for="input7">Галерея</label>
 						</li>
 						<li class="filter-option">
-							<input id="input8" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="options5" checked>
+							<input id="input8" class="filter-input filter-input-checkbox" type="checkbox" name="options5" checked>
 							<label for="input8">Корзина</label>
 						</li>
 					</ul>
@@ -70,6 +75,7 @@
 		</section>
 		<section class="catalog">
 			<div class="filter">
+			<h2 class="visually-hidden">Каталог продуктов</h2>
 				<p class="filter-sort">Сортировать:</p>
 				<a class="filter-price">По цене</a>
 				<a class="filter-type" href="#">По типу</a>
@@ -127,20 +133,51 @@
 						</div>
 					</li>
 				</ul>
-			<ul class="pagination-list">
-				<li class="pagination-item pagination-item-current"><a>1</a></li>
-				<li class="pagination-item"><a href="#">2</a></li>
-				<li class="pagination-item"><a href="#">3</a></li>
-				<li class="pagination-item-next"><a href="#">Следующая</a></li>
-			</ul>
+						<div class="pagination">
+							<a href="#" class="prev hidden">Предыдущая</a>
+							<a href="#" class="current">1</a>
+							<a href="#">2</a>
+							<a href="#">3</a>
+							<a href="#" class="next">Следующая</a>
+						</div>
 		</section>
 	</main>
 	<footer class="main-footer">
 		<section class="contacts">
+		<h2 class="visually-hidden">Контакты</h2>
 			<div class="container">
 				<h2>Nerds design studio</h2>
 				<p>191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8<br>тел. +7 (812) 275-75-75</p>
-				<a class="button" href="#">Напишите нам</a>
+				<section class="contacts">
+        <h2 class="visually-hidden">Контакты</h2>
+        <img src="img/map.jpg" alt="">
+        <div class="contants__location">
+          <span class="contacts__title">Nёrds design studio</span>
+          <p>191186, Санкт-Петербург, 
+            ул. Б. Конюшенная, д. 19/8</p> 
+
+            <a href="tel:+78122757575">тел. +7 (812) 275-75-75</a>
+          </div>
+        </section>
+        <div class="modal-write">
+          <form action="#" method="post" class="modal-write__form">
+            <fieldset class="modal-write__email">
+              <legend class="modal-write__title">Напишите нам</legend>
+              <label for="name">Ваше имя:<input type="text" id="name" name="name" placeholder="Представьтесь, пожалуйста" required>
+              </label>
+            </fieldset>
+            <fieldset class="modal-write__email">
+              <label for="email">Ваш e-mail:<input type="email" id="email" name="email" placeholder="Для отправки ответа" required>
+              </label>
+            </fieldset>
+            <fieldset class="modal-write__email">
+              <label for="email">Текст письма:</label>
+              <textarea id="message" name="email" placeholder="В свободной форме" required></textarea>
+            </fieldset>
+            <button type="submit" class="modal-write__btn modal-write__btn--submit">Отправить</button>
+            <button type="reset" class="modal-write__btn modal-write__btn--close">Закрыть</button>
+          </form>
+        </div>
 			</div>
 		</section>
 			<ul class="social-buttons">

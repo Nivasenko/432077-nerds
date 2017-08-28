@@ -10,12 +10,12 @@
 </head>
 <body>
 	<header class="header">
-			<h1 class="visually-hidden">Веб-студия Нёрдс</h1>
+			<h2 class="visually-hidden">Веб-студия Нёрдс</h2>
 			<nav class="nav">
                <a class="main-header-logo">
                 <img src="img/nerds-logo.svg" alt="Нёрдс"></a>
                 <ul class="site-navigation">
-                 <li class="site-navigation-current">Студия</a></li>
+                 <li class="site-navigation-current">Студия</li>
                  <li><a href="clients.html">Клиенты</a></li>
                  <li><a href="catalog.html">Магазин</a></li>
                  <li><a href="contacts.html">Контакты</a></li>
@@ -31,17 +31,17 @@
 			<div class="slides">
 			  <ul>
 				<li class="slide">
-					<b class="slide-title">Долго, дорого,скурпулезно</b>
+					<h3 class="slider__title">Долго, дорого,скурпулезно</h3>
 					<p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
 					<a class="btn" href="#">Узнать больше</a>
 				</li>
 				<li class="slide">
-					<b class="slide-title">Любим математику как никто другой</b>
+					<h3 class="slider__title">Любим математику как никто другой</h3>
 					<p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
 					<a class="btn" href="#">Узнать больше</a>
 				</li>
 				<li class="slide">
-					<b class="slide-title">Только ночь,только хардкор</b>
+					<h3 class="slider__title">Только ночь,только хардкор</h3>
 					<p>Работать днем, как все? Мы против этого.Ближе к полуночи работа только начинается.</p>
 					<a class="btn" href="#">Узнать больше</a>
 				</li>
@@ -57,19 +57,19 @@
 		<h2 class="visually-hidden">Наши услуги</h2>
             <ul class="advantages-list">
                 <li class="advantage-item">
-                    <img src="http://placehold.it/150x100">
+                    <img src="http://placehold.it/150x100" alt="pic1">
                     <h3>Веб-сайты</h3>
                     <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
                     <a class="button" href="#">Заказать</a>
                 </li>
                 <li class="advantage-item">
-                    <img src="http://placehold.it/150x100">
+                    <img src="http://placehold.it/150x100" alt="pic2">
                     <h3>Приложения</h3>
                     <p>Покорите топ-10 приложений в AppStore и Google Play</p>
                     <a class="button" href="#">Заказать</a>
                 </li>
                 <li class="advantage-item">
-                    <img src="http://placehold.it/150x100">
+                    <img src="http://placehold.it/150x100" alt="pic3">
                     <h3>Презентации</h3>
                     <p>Вы даже не подозреваете,  насколько вы изумительны!</p>
                     <a class="button" href="#">Заказать</a>
@@ -89,7 +89,7 @@
         </section>
         <section class="studioadvantage">
             <img src="http://placehold.it/150x100" alt="">
-            <b>С 2004 года любим точность во всем</b>
+            <h2>С 2004 года любим точность во всем</h2>
             <table>
                 <tr>
                     <td>146%</td>
@@ -121,7 +121,36 @@
 			<div class="container">
 				<h2>Nerds design studio</h2>
 				<p>191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8<br>тел. +7 (812) 275-75-75</p>
-				<a class="button" href="#">Напишите нам</a>
+				<section class="contacts">
+        <h2 class="visually-hidden">Контакты</h2>
+        <img src="img/map.jpg" alt="">
+        <div class="contants__location">
+          <span class="contacts__title">Nёrds design studio</span>
+          <p>191186, Санкт-Петербург, 
+            ул. Б. Конюшенная, д. 19/8</p> 
+
+            <a href="tel:+78122757575">тел. +7 (812) 275-75-75</a>
+          </div>
+        </section>
+        <div class="modal-write">
+          <form action="#" method="post" class="modal-write__form">
+            <fieldset class="modal-write__email">
+              <legend class="modal-write__title">Напишите нам</legend>
+              <label for="name">Ваше имя:<input type="text" id="name" name="name" placeholder="Представьтесь, пожалуйста" required>
+              </label>
+            </fieldset>
+            <fieldset class="modal-write__email">
+              <label for="email">Ваш e-mail:<input type="email" id="email" name="email" placeholder="Для отправки ответа" required>
+              </label>
+            </fieldset>
+            <fieldset class="modal-write__email">
+              <label for="email">Текст письма:</label>
+              <textarea id="message" name="email" placeholder="В свободной форме" required></textarea>
+            </fieldset>
+            <button type="submit" class="modal-write__btn modal-write__btn--submit">Отправить</button>
+            <button type="reset" class="modal-write__btn modal-write__btn--close">Закрыть</button>
+          </form>
+        </div>
 			</div>
 		</section>
 			<ul class="social-buttons">
