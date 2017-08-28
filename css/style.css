@@ -16,3 +16,67 @@ h2 {
 	font-weight: bold;
 	color: black;
 }
+<<<<<<< HEAD
+=======
+
+.service__title {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.about__title {
+  font-size: 45px;
+}
+
+.about__bold {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.features__title {
+  font-size: 45px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.header__title {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.filter__title {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.sort__title--bold {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+.catalog__title {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+.contacts__title {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footer__bold {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.write-us__title {
+    font-size: 45px;
+}
+>>>>>>> 5edfec9f21a2eee1ddaa3ecf0e2737277da2e8f7
