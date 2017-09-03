@@ -11,52 +11,55 @@
 <body>
 	<header class="header">
 			<h2 class="visually-hidden">Веб-студия Нёрдс</h2>
-			<nav class="nav">
-				<a class="main-header-logo"><img src="img/nerds-logo.svg" alt="Нёрдс"></a>
-				<ul class="site-navigation">
-					<li class="site-navigation-current">Студия</li>
-					<li><a href="clients.html">Клиенты</a></li>
-					<li><a href="catalog.html">Магазин</a></li>
-					<li><a href="contacts.html">Контакты</a></li>
-				</ul>
+			<nav class="layout-center-wrapper">
+        		<div class="header-menu-clearfix">
+					<a class="header-logo"><img src="img/nerds-logo.svg" alt="Нёрдс"></a>
+					<ul class="main-menu clearfix">
+						<li class="active">Студия</li>
+						<li><a href="clients.html">Клиенты</a></li>
+						<li><a href="catalog.html">Магазин</a></li>
+						<li><a href="contacts.html">Контакты</a></li>
+					</ul>
+          		</div>
 			</nav>
-			<a class="cart" href="#">Корзина</a>
+			<a class="cart-enter" href="#">Корзина</a>
 	</header>
 	<main>
 		<section class="slider">
 				<input type="radio" id="btn-1" name="toggle" checked>
 				<input type="radio" id="btn-2" name="toggle">
 				<input type="radio" id="btn-3" name="toggle">
-			<div class="slides">
+			<div class="slide">
 				<ul>
-					<li class="slide">
-						<h3 class="slider__title">Долго, дорого,скурпулезно</h3>
+					<li class="slide-text">
+						<h3 class="slide-title">Долго, дорого,скурпулезно</h3>
 						<p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-						<a class="btn" href="#">Узнать больше</a>
+						<a class="btn btn-learn-more" href="#">Узнать больше</a>
 					</li>
-					<li class="slide">
-						<h3 class="slider__title">Любим математику как никто другой</h3>
+					<li class="slide-text">
+						<h3 class="slide-title">Любим математику как никто другой</h3>
 						<p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
-						<a class="btn" href="#">Узнать больше</a>
+						<a class="btn btn-learn-more" href="#">Узнать больше</a>
 					</li>
-					<li class="slide">
-						<h3 class="slider__title">Только ночь,только хардкор</h3>
+					<li class="slide-text">
+						<h3 class="slide-title">Только ночь,только хардкор</h3>
 						<p>Работать днем, как все? Мы против этого.Ближе к полуночи работа только начинается.</p>
-						<a class="btn" href="#">Узнать больше</a>
+						<a class="btn btn-learn-more" href="#">Узнать больше</a>
 					</li>
 				</ul>
 			</div>
 			<div class="slider-controls">
-					<label for="btn-1"></label>
+					<label class="active" for="btn-1"></label>
 					<label for="btn-2"></label>
 					<label for="btn-3"></label>
 			</div>
 		</section>
-		<section class="advantages">
+		<section class="layout-center-wrapper">
+      
 			<h2 class="visually-hidden">Наши услуги</h2>
-			<ul class="advantages-list">
+			<ul class="index-section">
 				<li class="advantage-item">
-					<img src="http://placehold.it/150x100" alt="pic1">
+					<img class="index-picture-site" src="#" alt="pic1">
 					<h3>Веб-сайты</h3>
 					<p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
 					<a class="button" href="#">Заказать</a>
