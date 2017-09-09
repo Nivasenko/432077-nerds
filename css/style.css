@@ -305,7 +305,6 @@ input[id^="btn-"]{
 	float:left;
 	margin-left:80px;
 	padding-top:130px;
-	background:url(../images/promo.jpg) no-repeat 0 0;
 }
 
 .promo--title~p{
@@ -320,14 +319,16 @@ input[id^="btn-"]{
 
 .promo__red{
 	margin-left:0;
+	background:url(../img/illustration-1.jpg)no-repeat 50% 0;
 }
 
 .promo__green{
-	background-position: -245px 0;
+	background:url(../img/illustration-2.jpg)no-repeat 50% 0;
+	
 }
 
 .promo__yellow{
-	background-position: -495px 0;
+	background:url(../img/illustration-3.jpg)no-repeat 50% 0;
 }
 
 .content__block-top{
